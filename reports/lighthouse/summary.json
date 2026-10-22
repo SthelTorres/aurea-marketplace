@@ -1,0 +1,287 @@
+{
+  "generatedAt": "2026-10-22T16:09:58.452Z",
+  "baseUrl": "http://127.0.0.1:4179",
+  "runsPerTarget": 3,
+  "aggregation": "mediana por categoria e métrica",
+  "environment": {
+    "lighthouse": "13.5.0",
+    "chromeLauncher": "1.2.2",
+    "browser": "Chrome/155.0.8059.85",
+    "node": "v24.16.0",
+    "os": "Windows_NT 10.0.19045 (x64)",
+    "cpu": "11th Gen Intel(R) Core(TM) i7-11700 @ 2.50GHz",
+    "build": "vite build + vite preview (VITE_ENABLE_MSW=true)"
+  },
+  "targets": {
+    "performance": 90,
+    "accessibility": 95,
+    "best-practices": 95,
+    "seo": 90
+  },
+  "results": {
+    "home": {
+      "mobile": {
+        "medians": {
+          "performance": 99,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "medianMetrics": {
+          "lcpMs": 1711,
+          "fcpMs": 1089,
+          "tbtMs": 104,
+          "cls": 0.011,
+          "speedIndexMs": 1089
+        },
+        "runs": [
+          {
+            "run": 1,
+            "scores": {
+              "performance": 99,
+              "accessibility": 100,
+              "best-practices": 100,
+              "seo": 100
+            },
+            "metrics": {
+              "lcpMs": 1711,
+              "fcpMs": 1315,
+              "tbtMs": 101,
+              "cls": 0.011,
+              "speedIndexMs": 1315
+            }
+          },
+          {
+            "run": 2,
+            "scores": {
+              "performance": 99,
+              "accessibility": 100,
+              "best-practices": 100,
+              "seo": 100
+            },
+            "metrics": {
+              "lcpMs": 1850,
+              "fcpMs": 1083,
+              "tbtMs": 107,
+              "cls": 0.011,
+              "speedIndexMs": 1083
+            }
+          },
+          {
+            "run": 3,
+            "scores": {
+              "performance": 99,
+              "accessibility": 100,
+              "best-practices": 100,
+              "seo": 100
+            },
+            "metrics": {
+              "lcpMs": 1711,
+              "fcpMs": 1089,
+              "tbtMs": 104,
+              "cls": 0.011,
+              "speedIndexMs": 1089
+            }
+          }
+        ]
+      },
+      "desktop": {
+        "medians": {
+          "performance": 100,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "medianMetrics": {
+          "lcpMs": 641,
+          "fcpMs": 353,
+          "tbtMs": 0,
+          "cls": 0.006,
+          "speedIndexMs": 353
+        },
+        "runs": [
+          {
+            "run": 1,
+            "scores": {
+              "performance": 100,
+              "accessibility": 100,
+              "best-practices": 100,
+              "seo": 100
+            },
+            "metrics": {
+              "lcpMs": 667,
+              "fcpMs": 437,
+              "tbtMs": 0,
+              "cls": 0.006,
+              "speedIndexMs": 437
+            }
+          },
+          {
+            "run": 2,
+            "scores": {
+              "performance": 100,
+              "accessibility": 100,
+              "best-practices": 100,
+              "seo": 100
+            },
+            "metrics": {
+              "lcpMs": 606,
+              "fcpMs": 353,
+              "tbtMs": 0,
+              "cls": 0.006,
+              "speedIndexMs": 353
+            }
+          },
+          {
+            "run": 3,
+            "scores": {
+              "performance": 100,
+              "accessibility": 100,
+              "best-practices": 100,
+              "seo": 100
+            },
+            "metrics": {
+              "lcpMs": 641,
+              "fcpMs": 349,
+              "tbtMs": 0,
+              "cls": 0.006,
+              "speedIndexMs": 349
+            }
+          }
+        ]
+      }
+    },
+    "nft-detail": {
+      "mobile": {
+        "medians": {
+          "performance": 98,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "medianMetrics": {
+          "lcpMs": 2300,
+          "fcpMs": 1079,
+          "tbtMs": 79,
+          "cls": 0.011,
+          "speedIndexMs": 1079
+        },
+        "runs": [
+          {
+            "run": 1,
+            "scores": {
+              "performance": 99,
+              "accessibility": 100,
+              "best-practices": 100,
+              "seo": 100
+            },
+            "metrics": {
+              "lcpMs": 1242,
+              "fcpMs": 1079,
+              "tbtMs": 95,
+              "cls": 0.011,
+              "speedIndexMs": 1079
+            }
+          },
+          {
+            "run": 2,
+            "scores": {
+              "performance": 98,
+              "accessibility": 100,
+              "best-practices": 100,
+              "seo": 100
+            },
+            "metrics": {
+              "lcpMs": 2300,
+              "fcpMs": 1079,
+              "tbtMs": 75,
+              "cls": 0.011,
+              "speedIndexMs": 1079
+            }
+          },
+          {
+            "run": 3,
+            "scores": {
+              "performance": 96,
+              "accessibility": 100,
+              "best-practices": 100,
+              "seo": 100
+            },
+            "metrics": {
+              "lcpMs": 2607,
+              "fcpMs": 1083,
+              "tbtMs": 79,
+              "cls": 0.011,
+              "speedIndexMs": 1083
+            }
+          }
+        ]
+      },
+      "desktop": {
+        "medians": {
+          "performance": 100,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "medianMetrics": {
+          "lcpMs": 670,
+          "fcpMs": 425,
+          "tbtMs": 0,
+          "cls": 0.014,
+          "speedIndexMs": 425
+        },
+        "runs": [
+          {
+            "run": 1,
+            "scores": {
+              "performance": 100,
+              "accessibility": 100,
+              "best-practices": 100,
+              "seo": 100
+            },
+            "metrics": {
+              "lcpMs": 557,
+              "fcpMs": 346,
+              "tbtMs": 0,
+              "cls": 0.014,
+              "speedIndexMs": 346
+            }
+          },
+          {
+            "run": 2,
+            "scores": {
+              "performance": 100,
+              "accessibility": 100,
+              "best-practices": 100,
+              "seo": 100
+            },
+            "metrics": {
+              "lcpMs": 670,
+              "fcpMs": 484,
+              "tbtMs": 0,
+              "cls": 0.014,
+              "speedIndexMs": 484
+            }
+          },
+          {
+            "run": 3,
+            "scores": {
+              "performance": 100,
+              "accessibility": 100,
+              "best-practices": 100,
+              "seo": 100
+            },
+            "metrics": {
+              "lcpMs": 677,
+              "fcpMs": 425,
+              "tbtMs": 0,
+              "cls": 0.014,
+              "speedIndexMs": 425
+            }
+          }
+        ]
+      }
+    }
+  }
+}
